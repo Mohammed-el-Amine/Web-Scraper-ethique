@@ -12,11 +12,9 @@ function createAndWriteToFile(fileName, fileContent) {
 }
 
 const urls = [
-  'https://www.arobase.org/forums/viewtopic.php?f=17&t=25274',
-  'https://forums.commentcamarche.net/forum/affich-2697446-formation-technicien-de-maintenance-informati',
-  '',
-  '',
-  '',
+  'Exemple@Email.com',
+  'Exemple@Email.com',
+  'Exemple@Email.com',
 ];
 
 // utilisation d'un Set pour stocker les adresses e-mails sans doublons
