@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Store the dependencies file path
+# Stocke le chemin du fichier de dépendances
 dependencies_file="./dependencies.txt"
 
-# Check if the dependencies file exists
+# Vérifie si le fichier de dépendances existe
 if [ ! -f $dependencies_file ]; then
     echo "Dependencies file not found!"
     exit 1
 fi
 
-# Read the dependencies file and install them one by one
+# Lis le fichier de dépendances et les install une par une
 while read dependency; do
     npm install $dependency
 done < $dependencies_file
