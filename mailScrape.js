@@ -12,9 +12,9 @@ function createAndWriteToFile(fileName, fileContent) {
 }
 
 const urls = [
-  'Exemple@Email.com',
-  'Exemple@Email.com',
-  'Exemple@Email.com',
+  'ExempleURL.com',
+  'ExempleURL.com',
+  'ExempleURL.com',
 ];
 
 // utilisation d'un Set pour stocker les adresses e-mails sans doublons
